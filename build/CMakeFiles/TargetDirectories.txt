@@ -1,0 +1,5 @@
+/home/ziggy/repositories/thread_pool/build/CMakeFiles/rebuild_cache.dir
+/home/ziggy/repositories/thread_pool/build/CMakeFiles/edit_cache.dir
+/home/ziggy/repositories/thread_pool/build/example/CMakeFiles/rebuild_cache.dir
+/home/ziggy/repositories/thread_pool/build/example/CMakeFiles/example.dir
+/home/ziggy/repositories/thread_pool/build/example/CMakeFiles/edit_cache.dir
