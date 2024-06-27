@@ -125,32 +125,32 @@ example/fast:
 	cd /home/ziggy/repositories/thread_pool/build && $(MAKE) -f example/CMakeFiles/example.dir/build.make example/CMakeFiles/example.dir/build
 .PHONY : example/fast
 
-main.o: main.cpp.o
+main_test.o: main_test.cpp.o
 
-.PHONY : main.o
+.PHONY : main_test.o
 
 # target to build an object file
-main.cpp.o:
-	cd /home/ziggy/repositories/thread_pool/build && $(MAKE) -f example/CMakeFiles/example.dir/build.make example/CMakeFiles/example.dir/main.cpp.o
-.PHONY : main.cpp.o
+main_test.cpp.o:
+	cd /home/ziggy/repositories/thread_pool/build && $(MAKE) -f example/CMakeFiles/example.dir/build.make example/CMakeFiles/example.dir/main_test.cpp.o
+.PHONY : main_test.cpp.o
 
-main.i: main.cpp.i
+main_test.i: main_test.cpp.i
 
-.PHONY : main.i
+.PHONY : main_test.i
 
 # target to preprocess a source file
-main.cpp.i:
-	cd /home/ziggy/repositories/thread_pool/build && $(MAKE) -f example/CMakeFiles/example.dir/build.make example/CMakeFiles/example.dir/main.cpp.i
-.PHONY : main.cpp.i
+main_test.cpp.i:
+	cd /home/ziggy/repositories/thread_pool/build && $(MAKE) -f example/CMakeFiles/example.dir/build.make example/CMakeFiles/example.dir/main_test.cpp.i
+.PHONY : main_test.cpp.i
 
-main.s: main.cpp.s
+main_test.s: main_test.cpp.s
 
-.PHONY : main.s
+.PHONY : main_test.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	cd /home/ziggy/repositories/thread_pool/build && $(MAKE) -f example/CMakeFiles/example.dir/build.make example/CMakeFiles/example.dir/main.cpp.s
-.PHONY : main.cpp.s
+main_test.cpp.s:
+	cd /home/ziggy/repositories/thread_pool/build && $(MAKE) -f example/CMakeFiles/example.dir/build.make example/CMakeFiles/example.dir/main_test.cpp.s
+.PHONY : main_test.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... example"
 	@echo "... edit_cache"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... main_test.o"
+	@echo "... main_test.i"
+	@echo "... main_test.s"
 .PHONY : help
 
 

@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+../src/include/any.hpp
+memory
+-
+
 ../src/include/task.hpp
 functional
 -
@@ -26,23 +30,11 @@ vector
 any
 -
 
-../src/include/threadPool.hpp
-queue
--
-mutex
--
-condition_variable
--
-thread
--
-functional
--
-task.hpp
-../src/include/task.hpp
-
-/home/ziggy/repositories/thread_pool/example/main.cpp
-threadPool.hpp
-/home/ziggy/repositories/thread_pool/example/threadPool.hpp
+/home/ziggy/repositories/thread_pool/example/main_test.cpp
 iostream
 -
+any.hpp
+/home/ziggy/repositories/thread_pool/example/any.hpp
+task.hpp
+/home/ziggy/repositories/thread_pool/example/task.hpp
 

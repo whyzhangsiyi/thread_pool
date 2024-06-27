@@ -57,38 +57,38 @@ include example/CMakeFiles/example.dir/progress.make
 # Include the compile flags for this target's objects.
 include example/CMakeFiles/example.dir/flags.make
 
-example/CMakeFiles/example.dir/main.cpp.o: example/CMakeFiles/example.dir/flags.make
-example/CMakeFiles/example.dir/main.cpp.o: ../example/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziggy/repositories/thread_pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/CMakeFiles/example.dir/main.cpp.o"
-	cd /home/ziggy/repositories/thread_pool/build/example && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/main.cpp.o -c /home/ziggy/repositories/thread_pool/example/main.cpp
+example/CMakeFiles/example.dir/main_test.cpp.o: example/CMakeFiles/example.dir/flags.make
+example/CMakeFiles/example.dir/main_test.cpp.o: ../example/main_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziggy/repositories/thread_pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/CMakeFiles/example.dir/main_test.cpp.o"
+	cd /home/ziggy/repositories/thread_pool/build/example && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/main_test.cpp.o -c /home/ziggy/repositories/thread_pool/example/main_test.cpp
 
-example/CMakeFiles/example.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/main.cpp.i"
-	cd /home/ziggy/repositories/thread_pool/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ziggy/repositories/thread_pool/example/main.cpp > CMakeFiles/example.dir/main.cpp.i
+example/CMakeFiles/example.dir/main_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/main_test.cpp.i"
+	cd /home/ziggy/repositories/thread_pool/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ziggy/repositories/thread_pool/example/main_test.cpp > CMakeFiles/example.dir/main_test.cpp.i
 
-example/CMakeFiles/example.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/main.cpp.s"
-	cd /home/ziggy/repositories/thread_pool/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ziggy/repositories/thread_pool/example/main.cpp -o CMakeFiles/example.dir/main.cpp.s
+example/CMakeFiles/example.dir/main_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/main_test.cpp.s"
+	cd /home/ziggy/repositories/thread_pool/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ziggy/repositories/thread_pool/example/main_test.cpp -o CMakeFiles/example.dir/main_test.cpp.s
 
-example/CMakeFiles/example.dir/main.cpp.o.requires:
+example/CMakeFiles/example.dir/main_test.cpp.o.requires:
 
-.PHONY : example/CMakeFiles/example.dir/main.cpp.o.requires
+.PHONY : example/CMakeFiles/example.dir/main_test.cpp.o.requires
 
-example/CMakeFiles/example.dir/main.cpp.o.provides: example/CMakeFiles/example.dir/main.cpp.o.requires
-	$(MAKE) -f example/CMakeFiles/example.dir/build.make example/CMakeFiles/example.dir/main.cpp.o.provides.build
-.PHONY : example/CMakeFiles/example.dir/main.cpp.o.provides
+example/CMakeFiles/example.dir/main_test.cpp.o.provides: example/CMakeFiles/example.dir/main_test.cpp.o.requires
+	$(MAKE) -f example/CMakeFiles/example.dir/build.make example/CMakeFiles/example.dir/main_test.cpp.o.provides.build
+.PHONY : example/CMakeFiles/example.dir/main_test.cpp.o.provides
 
-example/CMakeFiles/example.dir/main.cpp.o.provides.build: example/CMakeFiles/example.dir/main.cpp.o
+example/CMakeFiles/example.dir/main_test.cpp.o.provides.build: example/CMakeFiles/example.dir/main_test.cpp.o
 
 
 # Object files for target example
 example_OBJECTS = \
-"CMakeFiles/example.dir/main.cpp.o"
+"CMakeFiles/example.dir/main_test.cpp.o"
 
 # External object files for target example
 example_EXTERNAL_OBJECTS =
 
-../bin/example: example/CMakeFiles/example.dir/main.cpp.o
+../bin/example: example/CMakeFiles/example.dir/main_test.cpp.o
 ../bin/example: example/CMakeFiles/example.dir/build.make
 ../bin/example: example/CMakeFiles/example.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ziggy/repositories/thread_pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/example"
@@ -99,7 +99,7 @@ example/CMakeFiles/example.dir/build: ../bin/example
 
 .PHONY : example/CMakeFiles/example.dir/build
 
-example/CMakeFiles/example.dir/requires: example/CMakeFiles/example.dir/main.cpp.o.requires
+example/CMakeFiles/example.dir/requires: example/CMakeFiles/example.dir/main_test.cpp.o.requires
 
 .PHONY : example/CMakeFiles/example.dir/requires
 
